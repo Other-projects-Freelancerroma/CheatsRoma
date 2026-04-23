@@ -81,6 +81,7 @@
     <Compile Include="Extensions\AgentExtensions.cs" />
     <Compile Include="Extensions\PartyExtensions.cs" />
     <Compile Include="Patches\Combat\AlwaysWinBattleSimulationPatch.cs" />
+    <Compile Include="Patches\Combat\NoTroopSacrificePatch.cs" />
     <Compile Include="Patches\Party\CompanionsKnockoutOrKilledPatch.cs" />
     <Compile Include="Patches\Party\PartyHeroesInvinciblePatch.cs" />
     <Compile Include="Patches\Party\PartyInfiniteAmmoPatch.cs" />

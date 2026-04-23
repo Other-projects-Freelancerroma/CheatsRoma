@@ -42,5 +42,8 @@ namespace CheatsRoma.Cheats
 
         // Всегда побеждать в симуляции боя (когда бой проходит без личного участия)
         public static bool AlwaysWinBattleSimulationEnabled { get; set; } = true;
+
+        // Предотвращает потерю войск при прорыве осады, выходе из осаждённого поселения и попытке бегства
+        public static bool NoTroopSacrificeEnabled { get; set; } = true;
     }
 }
