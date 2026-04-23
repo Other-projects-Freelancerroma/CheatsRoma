@@ -1,0 +1,33 @@
+﻿<Module>
+	<Name value="CheatsRoma"/>
+	<Id value="CheatsRoma"/>
+	<Version value="v1.3.15.110062"/>
+
+	<SingleplayerModule value="true"/>
+	<MultiplayerModule value="false"/>
+	<Official value="false"/>
+
+	<DependedModules>
+		<DependedModule Id="Bannerlord.Harmony"/>
+		<DependedModule Id="Native"/>
+		<DependedModule Id="SandBoxCore"/>
+		<DependedModule Id="Sandbox"/>
+		<DependedModule Id="CustomBattle"/>
+		<DependedModule Id="StoryMode"/>
+	</DependedModules>
+
+	<SubModules>
+		<SubModule>
+			<Name value="CheatsRoma"/>
+			<DLLName value="CheatsRoma.dll"/>
+			<SubModuleClassType value="CheatsRoma.SubModule"/>
+
+			<Tags>
+				<Tag key="DedicatedServerType" value="none"/>
+				<Tag key="IsNoRenderModeElement" value="false"/>
+			</Tags>
+		</SubModule>
+	</SubModules>
+
+	<Xmls/>
+</Module>
