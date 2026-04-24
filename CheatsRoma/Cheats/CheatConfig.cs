@@ -46,7 +46,8 @@ namespace CheatsRoma.Cheats
         // Предотвращает потерю войск при прорыве осады, выходе из осаждённого поселения и попытке бегства
         public static bool NoTroopSacrificeEnabled { get; set; } = true;
 
-        // Если true, еда в отряде игрока не расходуется
-        public static float FoodConsumptionPercentage { get; set; } = 0f; // 0% = еда не тратится
+        // Еда в отряде игрока не расходуется, 0% = еда не тратится
+        public static float FoodConsumptionPercentage { get; set; } = 0f;
+
     }
 }
